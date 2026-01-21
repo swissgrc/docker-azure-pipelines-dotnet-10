@@ -46,7 +46,7 @@ RUN apt-get update -y && \
 # Install .NET 10
 
 # renovate: datasource=github-tags depName=dotnet/sdk extractVersion=^v(?<version>.*)$
-ENV DOTNET_VERSION=10.0.101
+ENV DOTNET_VERSION=10.0.102
 
 ENV \
     # Do not show first run text
