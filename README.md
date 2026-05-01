@@ -4,6 +4,29 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/swissgrc/docker-azure-pipelines-dotnet-10/blob/main/LICENSE) [![Build](https://img.shields.io/github/actions/workflow/status/swissgrc/docker-azure-pipelines-dotnet-10/publish.yml?branch=develop&style=flat-square)](https://github.com/swissgrc/docker-azure-pipelines-dotnet-10/actions/workflows/publish.yml) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=swissgrc_docker-azure-pipelines-dotnet-10&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=swissgrc_docker-azure-pipelines-dotnet-10) [![Pulls](https://img.shields.io/docker/pulls/swissgrc/azure-pipelines-dotnet.svg?style=flat-square)](https://hub.docker.com/r/swissgrc/azure-pipelines-dotnet) [![Stars](https://img.shields.io/docker/stars/swissgrc/azure-pipelines-dotnet.svg?style=flat-square)](https://hub.docker.com/r/swissgrc/azure-pipelines-dotnet)
 <!-- markdownlint-restore -->
 
+> ## ⚠️ This repository is deprecated
+>
+> This image is no longer maintained. The .NET SDK 10 is now part of [`azure-pipelines-vulcan`](https://github.com/swissgrc/docker-azure-pipelines/pkgs/container/azure-pipelines-vulcan) in our new monorepo: [`swissgrc/docker-azure-pipelines`](https://github.com/swissgrc/docker-azure-pipelines).
+>
+> **Migration:**
+>
+> ```
+> # Old
+> ghcr.io/swissgrc/azure-pipelines-dotnet:<tag>
+> docker.io/swissgrc/azure-pipelines-dotnet:<tag>
+>
+> # New
+> ghcr.io/swissgrc/azure-pipelines-vulcan:<tag>
+> ```
+>
+> **Timeline:**
+>
+> - **2026-05-01** — Deprecated, repository archived (read-only)
+> - **2026-07-01** — Container images on ghcr.io and docker.io will be deleted. All existing tags remain available until this date.
+> - **2026-09-01** — This repository will be deleted from GitHub
+>
+> **Questions about migration?** Please use the [Discussions](https://github.com/swissgrc/docker-azure-pipelines/discussions) on the new repository.
+
 🐳 Docker image to run .NET 10 in [Azure Pipelines container jobs].
 The image contains also Docker CLI to access Docker engine on the agent.
 
